@@ -14,6 +14,7 @@
   --columns: 12;
   --gutter: 30px;
   --offset: 20px;
+  --spacing: 0.5rem;
 }
 
 html {
@@ -24,6 +25,7 @@ html {
 body {
   margin: 0;
   margin-top: 4rem;
+  margin-bottom: 4rem;
   color: #0e0208;
   background-color: #BFB3B3
 }
@@ -87,8 +89,39 @@ p, li { line-height: 1.6em; }
   margin-bottom: 1rem;
 }
 
-.lysing{
-  font-size: 1rem;;
+.starfslysing .lysing{
+  font-size: 1rem;
+  font-weight: 700;
   margin-top: 1rem;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.starfslysing .most{
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.starfslysing section ul{
+  display: flex;
+  flex-direction: column;
+}
+
+.starfslysing section li {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: calc(var(--spacing) / 1);
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: calc(var(--spacing) / 1);
+}
+
+.starfslysing li:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.starfslysing li:last-child {
+  margin-bottom: 0;
+  border-bottom: 0;
+  padding-bottom: 0;
 }
