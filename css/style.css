@@ -128,13 +128,26 @@ section ul li {
   list-style: none;
 }
 
+/********/
+
+.starfslysing li {
+  line-height: 23px;
+  margin-bottom: 1rem;
+}
+
 .starfslysing .lysing {
   font-size: 17px;
 }
 
 .starfslysing .lysing_most {
   margin-left: 1rem;
+  margin-bottom: 0.5rem;
   font-size: 1rem;
   font-weight: 700;
 }
+
 /********/
+
+.hugbunad {
+  margin-top: 2rem;
+}
