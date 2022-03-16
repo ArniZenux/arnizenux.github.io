@@ -4,6 +4,11 @@
   overflow: hidden;
 }
 
+.gridHu {
+  max-width: 1300px;
+  margin: 0 auto ;
+  overflow: hidden;
+}
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -20,7 +25,7 @@ yfir 1000px - sama með verkefni 4.
   width: 100%;
 }
 .col-1 {
-  width: 8.333333333%;
+  width: 2.333333333%;
 }
 
 .col-2 {

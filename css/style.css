@@ -148,6 +148,22 @@ section ul li {
 
 /********/
 
+.wrapperhub {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0;
+}
+
 .hugbunad {
   margin-top: 2rem;
+}
+
+.hugbunad p {
+  font-size: 0.9rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hugbunad a {
+  font-size: 1rem;
+  font-family:'Times New Roman', Times, serif';
 }
