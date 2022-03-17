@@ -10,7 +10,7 @@
 <body>
 
   <header>
-    <h1><a href="index.html">Árni Ingi Jóhannesson</a></h1>
+    <h1><a href="index.html" onclick="ga('send','event','Heima','click','Heima');">Árni Ingi Jóhannesson</a></h1>
       <ul class="links">
         <li><a href="mailto:arnijoha@hi.is" target="_blank"><i class="fa fa-envelope-square" aria-hidden="false"></i></a></li>
         <li><a href="https://github.com/ArniZenux" target="_blank"><i class="fa fa-github-square" aria-hidden="false"></i></a></li>
@@ -123,8 +123,8 @@
             <li>• Starfið fólst einnig í fjáröflun, þróa hugmyndasmiðju fyrir KickStarter og halda kynningar um Signer Studio App fyrir sérkennara og fleira. 
                 Tók viðtöl og samdi dreifbréf fyrir kynningarherferð fyrir viðskiptavini í Bandríkjunum. Það var unnið með YEMM (yet another mail merge) og MailChimp.</li>
             <li><strong> Hér eru vefsíðurnar - </strong></li>
-            <li class="sublysing"><a href="https://www.signerstudio.com"><strong>SignerStudio</strong></a></li>
-            <li class="sublysing"><a href="https://www.signerbox.com"><strong>SignerBox</strong></a></li>
+            <li class="sublysing"><a href="https://www.signerstudio.com" onclick="ga('send','event','signerstudio','click','signerstudio');"><strong>SignerStudio</strong></a></li>
+            <li class="sublysing"><a href="https://www.signerbox.com" onclick="ga('send','event','signerbox','click','signerbox');"><strong>SignerBox</strong></a></li>
           </ul>
         </section>
       </div>
@@ -225,7 +225,18 @@
    </div>
   </div>
 
-
   </main>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  
+    ga('create', 'UA-96983344-1', 'auto');
+    ga('send', 'pageview');
+  
+  </script>
+
 </body>
 </html>
